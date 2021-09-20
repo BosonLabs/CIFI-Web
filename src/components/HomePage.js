@@ -6,8 +6,8 @@ import Layout from './Layout';
 import EcosystemComponents from './snippets/ecosystemComponents';
 import BuildManage from './snippets/BuildManage';
 import Pulse from './snippets/Pulse';
-import Team from './snippets/Team';
-import AdvisorBoard from './snippets/AdvisorBoard';
+//import Team from './snippets/Team';
+//import AdvisorBoard from './snippets/AdvisorBoard';
 import Investor from './snippets/Investor';
 import TechnologyPartners from './snippets/TechnologyPartners';
 import Roadmap from './snippets/Roadmap';
@@ -48,12 +48,12 @@ function HomePage() {
 
             <Pulse />
 
-            <Team />
+            {/* <Team /> */}
 
             <div className="board-sections overflow-hidden position-relative">
                 <img src={BMDots} alt="dots" className="invester-dots d-none d-lg-block" />
 
-                <AdvisorBoard />
+                {/* <AdvisorBoard /> */}
 
                 <Investor />
 
