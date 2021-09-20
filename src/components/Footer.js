@@ -14,7 +14,7 @@ import SMicon5 from '../assets/images/f-sm-5.png';
 import SMicon6 from '../assets/images/f-sm-6.png';
 import SMicon7 from '../assets/images/f-sm-7.png';
 import SMicon8 from '../assets/images/f-sm-8.png';
-//import SMicon9 from '../assets/images/telegram logo.png';
+import SMicon9 from '../assets/images/telegram-icon.png';
 import Flags from '../assets/images/flags.png';
 
 
@@ -57,12 +57,12 @@ function Footer() {
 
                 <div className="social-group text-center">
                     <ul className="d-flex list-unstyled align-items-center justify-content-center">
-                        <li><a href="https://telegram.me/cifilabs"><img src={SMicon1} alt="icon" /></a></li>
-                        <li><a href="https://www.cifinetwork.com/"><img src={SMicon2} alt="icon" /></a></li>
+                        <li><a href="https://telegram.me/cifilabs" ><img src={SMicon9} style={{width:"45px",height:"38px"}} alt="icon" /></a></li>
+                        <li><a href="https://www.instagram.com"><img src={SMicon2} alt="icon" /></a></li>
                         <li><a href="/"><img src={SMicon3} alt="icon" /></a></li>
                         <li><a href="https://twitter.com/cifilabs"><img src={SMicon4} alt="icon" /></a></li>
-                        <li><a href="/"><img src={SMicon5} alt="icon" /></a></li>
-                        <li><a href="/"><img src={SMicon6} alt="icon" /></a></li>
+                        <li><a href="https://www.youtube.com/"><img src={SMicon5} alt="icon" /></a></li>
+                        <li><a href="https://discord.com"><img src={SMicon6} alt="icon" /></a></li>
                         <li><a href="https://medium.com/@cifilabs"><img src={SMicon7} alt="icon" /></a></li>
                         <li><a href="/"><img src={SMicon8} alt="icon" /></a></li>
                     </ul>
