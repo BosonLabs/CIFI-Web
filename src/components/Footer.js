@@ -6,7 +6,7 @@ import {
 
 import Logo from '../assets/images/footerLogo.png';
 
-import SMicon1 from '../assets/images/f-sm-1.png';
+//import SMicon1 from '../assets/images/f-sm-1.png';
 import SMicon2 from '../assets/images/f-sm-2.png';
 import SMicon3 from '../assets/images/f-sm-3.png';
 import SMicon4 from '../assets/images/f-sm-4.png';

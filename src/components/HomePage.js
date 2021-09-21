@@ -8,8 +8,8 @@ import BuildManage from './snippets/BuildManage';
 import Pulse from './snippets/Pulse';
 //import Team from './snippets/Team';
 //import AdvisorBoard from './snippets/AdvisorBoard';
-import Investor from './snippets/Investor';
-import TechnologyPartners from './snippets/TechnologyPartners';
+//import Investor from './snippets/Investor';
+//import TechnologyPartners from './snippets/TechnologyPartners';
 import Roadmap from './snippets/Roadmap';
 import Platform from './snippets/Platform';
 
@@ -55,9 +55,9 @@ function HomePage() {
 
                 {/* <AdvisorBoard /> */}
 
-                <Investor />
+                {/* <Investor />
 
-                <TechnologyPartners />
+                <TechnologyPartners /> */}
 
                 <Roadmap />
             </div>
