@@ -5,14 +5,15 @@ import {
     Link
   } from "react-router-dom";
 
-import Logo from '../assets/images/logo.png';
+//import Logo from '../assets/images/logo.png';
+import Logo from '../assets/images/cifiedcopy2.jpg';
 
 function Header() {
     return (
         <Navbar collapseOnSelect expand="lg">
             <Container>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-                <Navbar.Brand href="/"><img src={Logo} alt="logo" /></Navbar.Brand>
+                <Navbar.Brand href="/"><img style={{width:"90px",height:"38px"}} src={Logo} alt="logo" /></Navbar.Brand>
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="me-auto">
                         <NavLink className="nav-link" exact  activeclassname="active" to="/">Home</NavLink>

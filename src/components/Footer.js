@@ -4,7 +4,8 @@ import {
     Link
   } from "react-router-dom";
 
-import Logo from '../assets/images/footerLogo.png';
+//import Logo from '../assets/images/footerLogo.png';
+import Logo from '../assets/images/cifiedcopy2.jpg';
 
 //import SMicon1 from '../assets/images/f-sm-1.png';
 import SMicon2 from '../assets/images/f-sm-2.png';
@@ -23,8 +24,8 @@ function Footer() {
         <div className="footer">
             <Container>
                 <Row>
-                    <Col lg={4} className="mb-lg-0 mb-5 pb-1">
-                        <img src={Logo} alt="logo" className="img-fluid" />
+                    <Col lg={4} className="mb-lg-0 mb-5 pb-1" >
+                        <img src={Logo} style={{width:"112px",height:"48px"}} alt="logo" className="img-fluid" />
                     </Col>
                     <Col lg={2} xs={6} className="mb-lg-0 mb-4 pb-1">
                         <ul className="list-unstyled text-uppercase">
